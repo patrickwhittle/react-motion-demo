@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+   </head>
+   <body>
+     <script src="jspm_packages/system.js"></script>
+     <script src="config.js"></script>
+     <script>
+       System.trace = true
+       System.import('systemjs-hot-reloader/default-listener.js');
+       System.import('app/main.js')
+     </script>
+     <div id="root"></div>
+   </body>
+</html>
+
